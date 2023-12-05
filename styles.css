@@ -2,13 +2,12 @@
 table {
             border-collapse: collapse;
             width: 100%;
-/* 	border: 1px solid rgb(255, 165, 0); */
 	border-color: rgb(255, 165, 0);
 	border-style: solid;
 	border-width: 0px 0px 1px 1px;
 }
         th, td {
-			border-width: 1px 1px 1px 0px;
+			border-width: 1px 1px 0px 0px;
 			border-color: rgb(255, 165, 0);
 			border-style: solid;
             padding: 3px 5px;
@@ -20,15 +19,5 @@ table {
             color: #fff;
         }
 
-        .subTotalRow td:last-child,
-        .subTotalRow td:nth-last-child(2) {
-            text-align: right;
-        }
-
-        .border-bottom {
-            border-bottom: 2px solid orange;
-        }
-
-        .border-right {
-            border-right: 2px solid orange;
-        }
+        
+       
